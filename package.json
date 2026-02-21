@@ -1,6 +1,6 @@
 {
   "name": "react-use-section-observer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react hook to track the visibility of elements in the viewport using Intersection Observer API",
   "homepage": "https://github.com/theo-js/react-use-section-observer#readme",
   "bugs": {
