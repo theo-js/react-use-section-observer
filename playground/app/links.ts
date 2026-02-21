@@ -1,0 +1,30 @@
+export const links: {
+  id: string;
+  label: string;
+}[] = [
+  { id: "section1", label: "Section 1" },
+  { id: "section2", label: "Section 2" },
+  { id: "section3", label: "Section 3" },
+  { id: "section4", label: "Section 4" },
+  { id: "section5", label: "Section 5" },
+  { id: "section6", label: "Section 6" },
+  { id: "section7", label: "Section 7" },
+  { id: "section8", label: "Section 8" },
+  { id: "section9", label: "Section 9" },
+  { id: "section10", label: "Section 10" },
+  { id: "section11", label: "Section 11" },
+  { id: "section12", label: "Section 12" },
+  { id: "section13", label: "Section 13" },
+  { id: "section14", label: "Section 14" },
+  { id: "section15", label: "Section 15" },
+  { id: "section16", label: "Section 16" },
+  { id: "section17", label: "Section 17" },
+  { id: "section18", label: "Section 18" },
+  { id: "section19", label: "Section 19" },
+  { id: "section20", label: "Section 20" },
+  { id: "section21", label: "Section 21" },
+  { id: "section22", label: "Section 22" },
+  { id: "section23", label: "Section 23" },
+  { id: "section24", label: "Section 24" },
+  { id: "section25", label: "Section 25" },
+];

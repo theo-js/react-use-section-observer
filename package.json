@@ -1,0 +1,57 @@
+{
+  "name": "react-use-section-observer",
+  "version": "1.0.0",
+  "description": "A react hook to track the visibility of elements in the viewport using Intersection Observer API",
+  "homepage": "https://github.com/theo-js/react-use-section-observer#readme",
+  "bugs": {
+    "url": "https://github.com/theo-js/react-use-section-observer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theo-js/react-use-section-observer.git"
+  },
+  "license": "ISC",
+  "author": {
+    "email": "dev.js.theo@gmail.com",
+    "name": "theo-js",
+    "url": "https://github.com/theo-js"
+  },
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build:types": "tsc",
+    "build:js": "vite build",
+    "copy:types": "xcopy types\\* dist /E /I /Y",
+    "build": "npm run build:types && npm run build:js && npm run copy:types"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "intersection-observer",
+    "visibility-tracker"
+  ],
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "@vitejs/plugin-react": "^5.1.4"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "workspaces": [
+    "playground"
+  ]
+}
