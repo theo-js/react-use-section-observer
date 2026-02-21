@@ -26,7 +26,6 @@ A lightweight React hook to track element visibility using the Intersection Obse
 ## ⚠️ Limitations
 
 - Only vertical scrolling (Y-axis) is supported.
-- Links must use the `href="#id"` format.
 - Requires browser support for `IntersectionObserver`.
 
 ---
